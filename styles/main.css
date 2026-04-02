@@ -193,7 +193,7 @@ img {
     left: 0;
     width: 100%;
     z-index: 1000;
-    padding: 1.5rem 0;
+    padding: 0.8rem 0;
     transition: var(--transition-normal);
     background: transparent;
 }

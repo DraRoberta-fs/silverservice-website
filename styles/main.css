@@ -239,24 +239,14 @@ img {
 }
 
 .logo {
-    font-family: var(--font-heading);
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: var(--color-text-light);
-    letter-spacing: 1px;
-    background-color: var(--color-primary);
-    padding: 0.7rem 1.2rem;
-    border-radius: var(--radius-md);
-    box-shadow: var(--shadow-sm);
     display: inline-flex;
     align-items: center;
     transition: var(--transition-normal);
+    padding: 0.3rem;
 }
 
 .logo:hover {
-    background-color: var(--color-primary-dark);
-    box-shadow: var(--shadow-md);
-    transform: translateY(-2px);
+    transform: translateY(-2px) scale(1.05);
 }
 
 .nav-links {
